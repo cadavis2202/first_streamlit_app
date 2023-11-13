@@ -46,3 +46,6 @@ streamlit.dataframe(my_data_row)
 # Adding new table which allows users to enter a new fruit suggestion
 fruits_suggestion = streamlit.text_input('What fruit would you like to add?')
 streamlit.write('Thanks for adding ', fruits_suggestion)
+
+#this will not owrk correctly, but just go with it for now
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
