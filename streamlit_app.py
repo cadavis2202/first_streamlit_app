@@ -44,5 +44,5 @@ streamlit.header("The fruit load list contains")
 streamlit.dataframe(my_data_row)
 
 # Adding new table which allows users to enter a new fruit suggestion
-fruits_suggestion = streamlit.text_input('What fruit would you like to add?)
+fruits_suggestion = streamlit.text_input('What fruit would you like to add?')
 streamlit.write('Thanks for adding ', fruits_suggestion)
